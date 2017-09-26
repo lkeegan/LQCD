@@ -1,0 +1,5 @@
+# To build the code using cmake to run simulations, i.e. with compiler optimisations turned on:
+mkdir release
+cd release
+cmake -DCMAKE_BUILD_TYPE=Release ..
+make
