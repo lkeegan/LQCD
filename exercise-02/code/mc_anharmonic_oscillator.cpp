@@ -9,7 +9,7 @@ oscillator::oscillator (int L, double a, double m0, double mu2, double lambda, u
 		randdist_double_0_1 (0, 1),
 		histogram_n_bins(nbins),
 		histogram (nbins, 0), bins(nbins) {
-			delta_ = sqrt(2.0) * a_;
+			delta_ = 2.0 * sqrt(a_);
 			// bins is the central value of the bin
 			// takes values in range [-histogram_width, +histogram_width]
 			for(int i=0; i<nbins; ++i) {
