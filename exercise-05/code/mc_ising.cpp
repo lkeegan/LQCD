@@ -150,13 +150,13 @@ void ising::init_constant_field() {
 }
 
 // return average of values in vector
-double av(std::vector<int> &vec) {
+double av(std::vector<double> &vec) {
 	double sum = std::accumulate(vec.begin(), vec.end(), 0.0);
 	return sum/static_cast<double>(vec.size());
 }
 
 // return std error of average, ignoring autocorrelations
-double std_err0(std::vector<int> &vec) {
+double std_err0(std::vector<double> &vec) {
 	double mean = av(vec);
 	double s = 0.;
 	for (unsigned int i=0; i<vec.size(); i++) {
@@ -166,7 +166,7 @@ double std_err0(std::vector<int> &vec) {
 }
 
 // returns auto-correlation function gamma[t], for t up to tmax
-std::vector<double> auto_corr(std::vector<int>& vec, int tmax) {
+std::vector<double> auto_corr(std::vector<double>& vec, int tmax) {
    std::vector<double> gamma (tmax);
 
    double sum_lo = 0.0;
@@ -194,7 +194,7 @@ std::vector<double> auto_corr(std::vector<int>& vec, int tmax) {
 }
 
 // standard error on arverage including effect of (some simple estimate of) autocorrelations in data 
-double std_err(std::vector<int>& vec) {
+double std_err(std::vector<double>& vec) {
    int tmax = vec.size()/50 + 1;
    std::vector<double> tau(tmax);
    std::vector<double> g = auto_corr(vec, tmax);
@@ -259,20 +259,21 @@ int main(int argc, char *argv[]) {
 
 	// measurements: output average values with standard error
 	// note no attempt to measure or account for autocorrelations
-	std::vector<int> E, EE, M, MM;
+	std::vector<double> E, EE, M, MM;
 	E.reserve(n_measurements);
 	EE.reserve(n_measurements);
 	M.reserve(n_measurements);
 	MM.reserve(n_measurements);
 	acc = 0.;
 	max_cluster_size = 0.;
+	double V = static_cast<double>(L*L*L*L);
 	for(int i=0; i<n_measurements; ++i){
 		acc += mc_ising.mc_sweep(n_metropolis);
 		max_cluster_size += mc_ising.cluster_update(n_cluster);
-		double tmpE = mc_ising.E();
+		double tmpE = mc_ising.E()/V;
 		E.push_back(tmpE);
 		EE.push_back(tmpE*tmpE);
-		double tmpM = mc_ising.M();
+		double tmpM = mc_ising.M()/V;
 		M.push_back(tmpM);
 		MM.push_back(tmpM*tmpM);
 		// optionally output each measurement for later analysis:
@@ -285,14 +286,13 @@ int main(int argc, char *argv[]) {
 		100.0*max_cluster_size/static_cast<double>(n_measurements)
 		<< "%" << std::endl;
 
-	double V = static_cast<double>(L*L*L*L);
 	std::cout << "# beta" << "\t\tE\t\terror" << "\t\tE^2\t\terror"
 			  << "\t\tM\t\terror" << "\t\tM^2\t\terror" << std::endl;
 	std::cout << beta << "\t"
-			  << av(E)/V << "\t" << std_err(E)/V << "\t"
-			  << av(EE)/V << "\t" << std_err(EE)/V << "\t"
-			  << av(M)/V << "\t" << std_err(M)/V << "\t"
-			  << av(MM)/V << "\t" << std_err(MM)/V << "\t" << std::endl;
+			  << av(E) << "\t" << std_err(E) << "\t"
+			  << av(EE) << "\t" << std_err(EE) << "\t"
+			  << av(M) << "\t" << std_err(M) << "\t"
+			  << av(MM) << "\t" << std_err(MM) << "\t" << std::endl;
 
 	return 0;
 }
