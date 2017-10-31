@@ -1,0 +1,253 @@
+# 4d U(1) Monte Carlo	
+# L	8
+# beta	0.92000000000000004
+# n_thermalisation	500
+# n_measurements	10000
+# Metropolis sweeps per MC update	1
+# Over-relaxation updates per MC update	1
+# Acceptance during thermalisation: 55.662683105468751%
+# Acceptance during measurements: 55.513823852539062%
+# beta		P		error		P^2		error		M		error		M^2		error
+0.92000000000000004	0.48586121731891524	0.00024671046147969211	0.23609609787091304	0.0002395790629225905	0.18208909912109375	0.00021010729325052148	0.033187287740409376	7.6579490179735479e-05	
+# 4d U(1) Monte Carlo	
+# L	8
+# beta	0.93000000000000005
+# n_thermalisation	500
+# n_measurements	10000
+# Metropolis sweeps per MC update	1
+# Over-relaxation updates per MC update	1
+# Acceptance during thermalisation: 55.136999511718749%
+# Acceptance during measurements: 54.984864501953126%
+# beta		P		error		P^2		error		M		error		M^2		error
+0.93000000000000005	0.49459382675661911	0.00025864891548167316	0.2446589284975485	0.0002563220952635745	0.175246630859375	0.0002174979968351909	0.030742383465170862	7.585195468267653e-05	
+# 4d U(1) Monte Carlo	
+# L	8
+# beta	0.93999999999999995
+# n_thermalisation	500
+# n_measurements	10000
+# Metropolis sweeps per MC update	1
+# Over-relaxation updates per MC update	1
+# Acceptance during thermalisation: 54.64959716796875%
+# Acceptance during measurements: 54.448543701171872%
+# beta		P		error		P^2		error		M		error		M^2		error
+0.93999999999999995	0.5037225196325501	0.00027854930577431701	0.2537769493401551	0.00028068424394210351	0.1681266357421875	0.00023355669329375232	0.028301486259698867	7.8443364386895638e-05	
+# 4d U(1) Monte Carlo	
+# L	8
+# beta	0.94999999999999996
+# n_thermalisation	500
+# n_measurements	10000
+# Metropolis sweeps per MC update	1
+# Over-relaxation updates per MC update	1
+# Acceptance during thermalisation: 54.0262451171875%
+# Acceptance during measurements: 53.871094360351563%
+# beta		P		error		P^2		error		M		error		M^2		error
+0.94999999999999996	0.51397586094644887	0.00027989828874814594	0.26421433860344179	0.00028788544273428314	0.16009899902343749	0.00024060692848863058	0.025668693929910658	7.6866430117594379e-05	
+# 4d U(1) Monte Carlo	
+# L	8
+# beta	0.95999999999999996
+# n_thermalisation	500
+# n_measurements	10000
+# Metropolis sweeps per MC update	1
+# Over-relaxation updates per MC update	1
+# Acceptance during thermalisation: 53.454309082031251%
+# Acceptance during measurements: 53.269989013671875%
+# beta		P		error		P^2		error		M		error		M^2		error
+0.95999999999999996	0.52505449974735374	0.00029818179326596248	0.27572764205011852	0.00031391108810144595	0.15131096191406249	0.00026572827753166281	0.022932736384868622	7.9835707000174602e-05	
+# 4d U(1) Monte Carlo	
+# L	8
+# beta	0.96999999999999997
+# n_thermalisation	500
+# n_measurements	10000
+# Metropolis sweeps per MC update	1
+# Over-relaxation updates per MC update	1
+# Acceptance during thermalisation: 52.894506835937499%
+# Acceptance during measurements: 52.64864074707031%
+# beta		P		error		P^2		error		M		error		M^2		error
+0.96999999999999997	0.53674301734593033	0.00039957472938085821	0.28814488827544643	0.00042940876772255262	0.14203663330078126	0.00034441701455949935	0.020216591061651707	9.7505226902885419e-05	
+# 4d U(1) Monte Carlo	
+# L	8
+# beta	0.97499999999999998
+# n_thermalisation	500
+# n_measurements	10000
+# Metropolis sweeps per MC update	1
+# Over-relaxation updates per MC update	1
+# Acceptance during thermalisation: 52.741796874999999%
+# Acceptance during measurements: 52.325248413085937%
+# beta		P		error		P^2		error		M		error		M^2		error
+0.97499999999999998	0.5429261166984094	0.00043921221141869871	0.2948252009681317	0.00047701869913989393	0.13706986083984374	0.00039107529000941395	0.018834910587966443	0.00010720816737069289	
+# 4d U(1) Monte Carlo	
+# L	8
+# beta	0.97999999999999998
+# n_thermalisation	500
+# n_measurements	10000
+# Metropolis sweeps per MC update	1
+# Over-relaxation updates per MC update	1
+# Acceptance during thermalisation: 52.215979003906249%
+# Acceptance during measurements: 51.979696044921873%
+# beta		P		error		P^2		error		M		error		M^2		error
+0.97999999999999998	0.54990249084000575	0.00047506291700337661	0.30245265355652173	0.00052279041761265374	0.13149259033203126	0.0004129831744837616	0.01733805488795042	0.00010838367527397494	
+# 4d U(1) Monte Carlo	
+# L	8
+# beta	0.98499999999999999
+# n_thermalisation	500
+# n_measurements	10000
+# Metropolis sweeps per MC update	1
+# Over-relaxation updates per MC update	1
+# Acceptance during thermalisation: 51.799645996093751%
+# Acceptance during measurements: 51.639714965820311%
+# beta		P		error		P^2		error		M		error		M^2		error
+0.98499999999999999	0.55663028398002723	0.00053723187566401623	0.30989580873000755	0.00059920445009206127	0.126073193359375	0.00045661941902485877	0.015940879723429679	0.0001144245961533419	
+# 4d U(1) Monte Carlo	
+# L	8
+# beta	0.98799999999999999
+# n_thermalisation	500
+# n_measurements	10000
+# Metropolis sweeps per MC update	1
+# Over-relaxation updates per MC update	1
+# Acceptance during thermalisation: 51.758959960937503%
+# Acceptance during measurements: 51.377501831054687%
+# beta		P		error		P^2		error		M		error		M^2		error
+0.98799999999999999	0.56242209208090022	0.00055247980786281346	0.31638705320088195	0.00062405284425964792	0.12131553955078125	0.0004695134319713476	0.014771044065058232	0.00011212041876922756	
+# 4d U(1) Monte Carlo	
+# L	8
+# beta	0.99099999999999999
+# n_thermalisation	500
+# n_measurements	10000
+# Metropolis sweeps per MC update	1
+# Over-relaxation updates per MC update	1
+# Acceptance during thermalisation: 51.495141601562501%
+# Acceptance during measurements: 51.167864379882815%
+# beta		P		error		P^2		error		M		error		M^2		error
+0.99099999999999999	0.56656680270914095	0.00053059528441550474	0.32106099461226351	0.00060199104633000447	0.11800914306640625	0.00046000657912123599	0.013976124174892902	0.0001079207018499881	
+# 4d U(1) Monte Carlo	
+# L	8
+# beta	0.99399999999999999
+# n_thermalisation	500
+# n_measurements	10000
+# Metropolis sweeps per MC update	1
+# Over-relaxation updates per MC update	1
+# Acceptance during thermalisation: 51.236499023437503%
+# Acceptance during measurements: 50.920067749023438%
+# beta		P		error		P^2		error		M		error		M^2		error
+0.99399999999999999	0.5720680890259412	0.00058806212524448458	0.32734036928747923	0.00067510331670041733	0.113643310546875	0.00051150977782635416	0.012975651183724403	0.0001146978706724694	
+# 4d U(1) Monte Carlo	
+# L	8
+# beta	0.997
+# n_thermalisation	500
+# n_measurements	10000
+# Metropolis sweeps per MC update	1
+# Over-relaxation updates per MC update	1
+# Acceptance during thermalisation: 50.953991699218747%
+# Acceptance during measurements: 50.600686035156251%
+# beta		P		error		P^2		error		M		error		M^2		error
+0.997	0.57949254379000226	0.00067325889863526964	0.33589761447370386	0.00078284805669043072	0.10740047607421875	0.0005741737818773377	0.011600930996239186	0.0001216239463062448	
+# 4d U(1) Monte Carlo	
+# L	8
+# beta	1
+# n_thermalisation	500
+# n_measurements	10000
+# Metropolis sweeps per MC update	1
+# Over-relaxation updates per MC update	1
+# Acceptance during thermalisation: 50.659167480468753%
+# Acceptance during measurements: 50.301403808593747%
+# beta		P		error		P^2		error		M		error		M^2		error
+1	0.58627315491717158	0.00093294471651620683	0.3438258686959319	0.0010936990667707882	0.10187811279296875	0.00081101698426474405	0.010462680448591709	0.00016591792268079198	
+# 4d U(1) Monte Carlo	
+# L	8
+# beta	1.0029999999999999
+# n_thermalisation	500
+# n_measurements	10000
+# Metropolis sweeps per MC update	1
+# Over-relaxation updates per MC update	1
+# Acceptance during thermalisation: 50.500952148437499%
+# Acceptance during measurements: 50.009272460937503%
+# beta		P		error		P^2		error		M		error		M^2		error
+1.0029999999999999	0.5927074624159826	0.0008494218998273403	0.35140656244040608	0.001009139872829205	0.096633715820312494	0.0007325208688555118	0.0094168525874614717	0.00014022039983596131	
+# 4d U(1) Monte Carlo	
+# L	8
+# beta	1.006
+# n_thermalisation	500
+# n_measurements	10000
+# Metropolis sweeps per MC update	1
+# Over-relaxation updates per MC update	1
+# Acceptance during thermalisation: 50.070263671874997%
+# Acceptance during measurements: 49.657857666015623%
+# beta		P		error		P^2		error		M		error		M^2		error
+1.006	0.60140294647109438	0.0011869951078652173	0.3618160364521853	0.0014295791138677972	0.089405041503906255	0.0010341412199226818	0.00809183705598116	0.00018370250021079062	
+# 4d U(1) Monte Carlo	
+# L	8
+# beta	1.0089999999999999
+# n_thermalisation	500
+# n_measurements	10000
+# Metropolis sweeps per MC update	1
+# Over-relaxation updates per MC update	1
+# Acceptance during thermalisation: 49.902172851562497%
+# Acceptance during measurements: 48.293055419921878%
+# beta		P		error		P^2		error		M		error		M^2		error
+1.0089999999999999	0.63866793074083705	0.0041030962746143639	0.40840142916128419	0.0051790334934762585	0.057862060546874997	0.0035091834295572599	0.0037131235897541045	0.00045389963631569096	
+# 4d U(1) Monte Carlo	
+# L	8
+# beta	1.012
+# n_thermalisation	500
+# n_measurements	10000
+# Metropolis sweeps per MC update	1
+# Over-relaxation updates per MC update	1
+# Acceptance during thermalisation: 49.429711914062501%
+# Acceptance during measurements: 47.607879028320312%
+# beta		P		error		P^2		error		M		error		M^2		error
+1.012	0.65703460247935586	0.0010929854967669439	0.43178300349270193	0.001412996292872407	0.042814892578124999	0.00091208128369502193	0.0018913943618535996	9.5590858702158707e-05	
+# 4d U(1) Monte Carlo	
+# L	8
+# beta	1.0149999999999999
+# n_thermalisation	500
+# n_measurements	10000
+# Metropolis sweeps per MC update	1
+# Over-relaxation updates per MC update	1
+# Acceptance during thermalisation: 49.1314697265625%
+# Acceptance during measurements: 47.380706176757812%
+# beta		P		error		P^2		error		M		error		M^2		error
+1.0149999999999999	0.66232086298695736	0.00051505044944353325	0.43872432892097168	0.00067905213632840969	0.039091552734375	0.00040153975102752925	0.0015608063071966172	3.3681744105337322e-05	
+# 4d U(1) Monte Carlo	
+# L	8
+# beta	1.02
+# n_thermalisation	500
+# n_measurements	10000
+# Metropolis sweeps per MC update	1
+# Over-relaxation updates per MC update	1
+# Acceptance during thermalisation: 48.16607666015625%
+# Acceptance during measurements: 47.115957031249998%
+# beta		P		error		P^2		error		M		error		M^2		error
+1.02	0.66790496393209209	0.00032992100081484906	0.44614136806406024	0.00043981151642562998	0.035450500488281252	0.00023759319507785681	0.0012809155002236367	1.772942811085292e-05	
+# 4d U(1) Monte Carlo	
+# L	8
+# beta	1.03
+# n_thermalisation	500
+# n_measurements	10000
+# Metropolis sweeps per MC update	1
+# Over-relaxation updates per MC update	1
+# Acceptance during thermalisation: 47.465112304687501%
+# Acceptance during measurements: 46.651279907226559%
+# beta		P		error		P^2		error		M		error		M^2		error
+1.03	0.67742097307679994	0.00028438856434675938	0.45893329940313404	0.00038464727734572013	0.029821191406249999	0.00018589140298127672	0.00090611699223518377	1.1526830010161844e-05	
+# 4d U(1) Monte Carlo	
+# L	8
+# beta	1.04
+# n_thermalisation	500
+# n_measurements	10000
+# Metropolis sweeps per MC update	1
+# Over-relaxation updates per MC update	1
+# Acceptance during thermalisation: 47.153771972656251%
+# Acceptance during measurements: 46.257733154296872%
+# beta		P		error		P^2		error		M		error		M^2		error
+1.04	0.68470385472938122	0.00023828821669560202	0.46884760480813281	0.00032638158162684005	0.02607236328125	0.00014451318817770576	0.00069230720400810237	7.6205391721362727e-06	
+# 4d U(1) Monte Carlo	
+# L	8
+# beta	1.05
+# n_thermalisation	500
+# n_measurements	10000
+# Metropolis sweeps per MC update	1
+# Over-relaxation updates per MC update	1
+# Acceptance during thermalisation: 46.665112304687497%
+# Acceptance during measurements: 45.909000854492184%
+# beta		P		error		P^2		error		M		error		M^2		error
+1.05	0.69109006588195354	0.00020384482858963441	0.47763295164955805	0.00028130085497411658	0.022939208984375001	0.00011689309309657817	0.00053668569326400758	5.5958157841449802e-06	
