@@ -56,7 +56,7 @@ int mc_u1::m_mu_nu (int ix, int mu, int nu) {
 		++m;
 		theta_plaq -= TWO_PI;
 	}
-	while (theta_plaq < PI) {
+	while (theta_plaq < -PI) {
 		--m;
 		theta_plaq += TWO_PI;
 	}
@@ -229,7 +229,7 @@ int main(int argc, char *argv[]) {
 	int n_overrelaxation = atof(argv[6]);
 	double delta = 0.5; //size of metropolis step: choose beween 0 and 1 to get ~50% acceptance
 
-	std::cout.precision(17);
+	std::cout.precision(10);
 	std::cout << "# 4d U(1) Monte Carlo\t" << std::endl;
 	std::cout << "# L\t" << L << std::endl;
 	std::cout << "# beta\t" << beta << std::endl;
@@ -276,7 +276,7 @@ int main(int argc, char *argv[]) {
 		100.0*static_cast<double>(acc)/static_cast<double>(n_measurements)
 		<< "%" << std::endl;
 
-	std::cout << "# beta" << "\t\tP\t\terror" << "\t\tP^2\t\terror"
+	std::cout << "# beta" << "\tP\t\terror" << "\t\tP^2\t\terror"
 			  << "\t\tM\t\terror" << "\t\tM^2\t\terror" << std::endl;
 	std::cout << beta << "\t"
 			  << av(P) << "\t" << std_err(P) << "\t"
