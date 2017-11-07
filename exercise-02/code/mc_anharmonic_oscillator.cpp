@@ -140,7 +140,7 @@ int main(int argc, char *argv[]) {
 	double lambda = atof(argv[3]);
 	int n_thermalisation = atof(argv[4]);
 	int n_measurements = atof(argv[5]);
-	double a = 0.1;
+	double a = 0.2;
 	double m0 = 1.0;
 	unsigned int seed = atoi(argv[6]);
 

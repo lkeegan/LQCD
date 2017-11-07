@@ -1,0 +1,208 @@
+# 2d Ising Model MC	
+# L	40
+# beta	0.3
+# n_thermalisation	10000
+# n_measurements	2000000
+# Metropolis sweeps per MC update	1
+# Cluster updates per MC update	0
+# Acceptance during thermalisation: 52.24959375%
+# Average of maximum cluster size during thermalisation: 0%
+# Acceptance during measurements: 52.237687312%
+# Average of maximum cluster size during thermalisation: 0%
+# beta		E		error		E^2		error		M		error		M^2		error		tau_int(E)		error
+0.3		-0.70452415625	5.5546443451e-05	0.49834492982	7.8550861938e-05	0.053742149375	7.3346369886e-05	0.0045273063727	1.1967677126e-05	1.5499550961	0.0071027865519	
+# 2d Ising Model MC	
+# L	40
+# beta	0.325
+# n_thermalisation	10000
+# n_measurements	2000000
+# Metropolis sweeps per MC update	1
+# Cluster updates per MC update	0
+# Acceptance during thermalisation: 47.656225%
+# Average of maximum cluster size during thermalisation: 0%
+# Acceptance during measurements: 47.676462906%
+# Average of maximum cluster size during thermalisation: 0%
+# beta		E		error		E^2		error		M		error		M^2		error		tau_int(E)		error
+0.325		-0.78767321625	6.5848117046e-05	0.6226089689	0.00010414465829	0.06381962875	0.00010716982676	0.0063671724047	2.0631996292e-05	1.9890947424	0.009945473712	
+# 2d Ising Model MC	
+# L	40
+# beta	0.35
+# n_thermalisation	10000
+# n_measurements	2000000
+# Metropolis sweeps per MC update	1
+# Cluster updates per MC update	0
+# Acceptance during thermalisation: 42.901325%
+# Average of maximum cluster size during thermalisation: 0%
+# Acceptance during measurements: 42.905885594%
+# Average of maximum cluster size during thermalisation: 0%
+# beta		E		error		E^2		error		M		error		M^2		error		tau_int(E)		error
+0.35		-0.87979946625	8.1555105362e-05	0.77647797244	0.00014410666413	0.07858412	0.00017333315424	0.0096556839953	4.095775576e-05	2.7361523825	0.016187295794	
+# 2d Ising Model MC	
+# L	40
+# beta	0.375
+# n_thermalisation	10000
+# n_measurements	2000000
+# Metropolis sweeps per MC update	1
+# Cluster updates per MC update	0
+# Acceptance during thermalisation: 37.8913625%
+# Average of maximum cluster size during thermalisation: 0%
+# Acceptance during measurements: 37.852972812%
+# Average of maximum cluster size during thermalisation: 0%
+# beta		E		error		E^2		error		M		error		M^2		error		tau_int(E)		error
+0.375		-0.98371505125	0.0001091469815	0.97049067619	0.0002158003317	0.1045706175	0.00032455260876	0.01701610402	0.00010047800008	4.261706303	0.031025690202	
+# 2d Ising Model MC	
+# L	40
+# beta	0.4
+# n_thermalisation	10000
+# n_measurements	2000000
+# Metropolis sweeps per MC update	1
+# Cluster updates per MC update	0
+# Acceptance during thermalisation: 32.195625%
+# Average of maximum cluster size during thermalisation: 0%
+# Acceptance during measurements: 32.307035531%
+# Average of maximum cluster size during thermalisation: 0%
+# beta		E		error		E^2		error		M		error		M^2		error		tau_int(E)		error
+0.4		-1.1064196913	0.0001712361429	1.2275550245	0.00038290474877	0.16108528375	0.00079767381768	0.03949008138	0.00035760549311	8.6482500938	0.088618192923	
+# 2d Ising Model MC	
+# L	40
+# beta	0.425
+# n_thermalisation	10000
+# n_measurements	2000000
+# Metropolis sweeps per MC update	1
+# Cluster updates per MC update	0
+# Acceptance during thermalisation: 25.4525625%
+# Average of maximum cluster size during thermalisation: 0%
+# Acceptance during measurements: 25.422491469%
+# Average of maximum cluster size during thermalisation: 0%
+# beta		E		error		E^2		error		M		error		M^2		error		tau_int(E)		error
+0.425		-1.2727144275	0.0005756786901	1.6252416285	0.0014923679843	0.35597779062	0.0027143060336	0.16711887625	0.0019845538564	60.924529436	1.6494690492	
+# 2d Ising Model MC	
+# L	40
+# beta	0.435
+# n_thermalisation	10000
+# n_measurements	2000000
+# Metropolis sweeps per MC update	1
+# Cluster updates per MC update	0
+# Acceptance during thermalisation: 22.07989375%
+# Average of maximum cluster size during thermalisation: 0%
+# Acceptance during measurements: 21.639636156%
+# Average of maximum cluster size during thermalisation: 0%
+# beta		E		error		E^2		error		M		error		M^2		error		tau_int(E)		error
+0.435		-1.3703022637	0.00086631197585	1.8843443548	0.0023619032568	0.532718135	0.0034661512975	0.32530437679	0.0030562277498	113.43554265	4.1879075018	
+# 2d Ising Model MC	
+# L	40
+# beta	0.445
+# n_thermalisation	10000
+# n_measurements	2000000
+# Metropolis sweeps per MC update	1
+# Cluster updates per MC update	0
+# Acceptance during thermalisation: 17.918075%
+# Average of maximum cluster size during thermalisation: 0%
+# Acceptance during measurements: 17.806267625%
+# Average of maximum cluster size during thermalisation: 0%
+# beta		E		error		E^2		error		M		error		M^2		error		tau_int(E)		error
+0.445		-1.4719055275	0.00061169502129	2.1721232558	0.0017460038861	0.700647505	0.0019932894657	0.50907754696	0.0021122662339	66.609558605	1.8851799573	
+# 2d Ising Model MC	
+# L	40
+# beta	0.455
+# n_thermalisation	10000
+# n_measurements	2000000
+# Metropolis sweeps per MC update	1
+# Cluster updates per MC update	0
+# Acceptance during thermalisation: 15.05345625%
+# Average of maximum cluster size during thermalisation: 0%
+# Acceptance during measurements: 14.918521094%
+# Average of maximum cluster size during thermalisation: 0%
+# beta		E		error		E^2		error		M		error		M^2		error		tau_int(E)		error
+0.455		-1.549655495	0.00033635823786	2.4056823211	0.0010143701476	0.78705671812	0.001045536129	0.62610717837	0.0012027499853	26.619387141	0.47692552745	
+# 2d Ising Model MC	
+# L	40
+# beta	0.465
+# n_thermalisation	10000
+# n_measurements	2000000
+# Metropolis sweeps per MC update	1
+# Cluster updates per MC update	0
+# Acceptance during thermalisation: 12.93623125%
+# Average of maximum cluster size during thermalisation: 0%
+# Acceptance during measurements: 12.742788531%
+# Average of maximum cluster size during thermalisation: 0%
+# beta		E		error		E^2		error		M		error		M^2		error		tau_int(E)		error
+0.465		-1.6091341712	0.0002016827542	2.59262752	0.00063838455985	0.83501510812	0.0004562983464	0.69992150739	0.00057694513112	12.271233059	0.14978948881	
+# 2d Ising Model MC	
+# L	40
+# beta	0.475
+# n_thermalisation	10000
+# n_measurements	2000000
+# Metropolis sweeps per MC update	1
+# Cluster updates per MC update	0
+# Acceptance during thermalisation: 11.43606875%
+# Average of maximum cluster size during thermalisation: 0%
+# Acceptance during measurements: 11.005634781%
+# Average of maximum cluster size during thermalisation: 0%
+# beta		E		error		E^2		error		M		error		M^2		error		tau_int(E)		error
+0.475		-1.6573546725	0.00013954713474	2.749508368	0.00045820008149	0.86625780312	0.00016929545446	0.7516676362	0.00027687352887	7.255751371	0.068450621533	
+# 2d Ising Model MC	
+# L	40
+# beta	0.5
+# n_thermalisation	10000
+# n_measurements	2000000
+# Metropolis sweeps per MC update	1
+# Cluster updates per MC update	0
+# Acceptance during thermalisation: 8.1394125%
+# Average of maximum cluster size during thermalisation: 0%
+# Acceptance during measurements: 7.9046674063%
+# Average of maximum cluster size during thermalisation: 0%
+# beta		E		error		E^2		error		M		error		M^2		error		tau_int(E)		error
+0.5		-1.7457239862	8.6019193385e-05	3.0493579333	0.00029894838899	0.91142164875	6.5275707838e-05	0.83116635407	0.00011620631575	4.0977533185	0.029263812042	
+# 2d Ising Model MC	
+# L	40
+# beta	0.525
+# n_thermalisation	10000
+# n_measurements	2000000
+# Metropolis sweeps per MC update	1
+# Cluster updates per MC update	0
+# Acceptance during thermalisation: 5.94955625%
+# Average of maximum cluster size during thermalisation: 0%
+# Acceptance during measurements: 5.8396374688%
+# Average of maximum cluster size during thermalisation: 0%
+# beta		E		error		E^2		error		M		error		M^2		error		tau_int(E)		error
+0.525		-1.806861415	6.1506145681e-05	3.2660363454	0.00022150571707	0.93728142125	3.4431556014e-05	0.87873768922	6.3845484479e-05	2.936723407	0.017863391102	
+# 2d Ising Model MC	
+# L	40
+# beta	0.55
+# n_thermalisation	10000
+# n_measurements	2000000
+# Metropolis sweeps per MC update	1
+# Cluster updates per MC update	0
+# Acceptance during thermalisation: 4.58959375%
+# Average of maximum cluster size during thermalisation: 0%
+# Acceptance during measurements: 4.394971%
+# Average of maximum cluster size during thermalisation: 0%
+# beta		E		error		E^2		error		M		error		M^2		error		tau_int(E)		error
+0.55		-1.8511235938	4.7547434989e-05	3.4276080722	0.00017555588444	0.95394321188	2.1958023607e-05	0.91014966296	4.1618018417e-05	2.3809667337	0.013256661729	
+# 2d Ising Model MC	
+# L	40
+# beta	0.575
+# n_thermalisation	10000
+# n_measurements	2000000
+# Metropolis sweeps per MC update	1
+# Cluster updates per MC update	0
+# Acceptance during thermalisation: 4.057275%
+# Average of maximum cluster size during thermalisation: 0%
+# Acceptance during measurements: 3.35147175%
+# Average of maximum cluster size during thermalisation: 0%
+# beta		E		error		E^2		error		M		error		M^2		error		tau_int(E)		error
+0.575		-1.8841126525	3.817875014e-05	3.5505941994	0.00014355726346	0.96541431875	1.5450280428e-05	0.93211556155	2.9707314612e-05	2.0423039728	0.010612122736	
+# 2d Ising Model MC	
+# L	40
+# beta	0.6
+# n_thermalisation	10000
+# n_measurements	2000000
+# Metropolis sweeps per MC update	1
+# Cluster updates per MC update	0
+# Acceptance during thermalisation: 2.957075%
+# Average of maximum cluster size during thermalisation: 0%
+# Acceptance during measurements: 2.58299425%
+# Average of maximum cluster size during thermalisation: 0%
+# beta		E		error		E^2		error		M		error		M^2		error		tau_int(E)		error
+0.6		-1.9090746875	3.1476632836e-05	3.6451104895	0.00011998613598	0.97360478312	1.1652917286e-05	0.94796775674	2.2633192833e-05	1.8201896482	0.0087293228933	

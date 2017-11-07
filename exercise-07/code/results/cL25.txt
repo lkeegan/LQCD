@@ -1,0 +1,9 @@
+# 2d Ising Model MC	
+# L	25
+# beta	0.3
+# n_thermalisation	500
+# n_measurements	100000
+# Metropolis sweeps per MC update	0
+# Cluster updates per MC update	1
+# Acceptance during thermalisation: -nan%
+# Average of maximum cluster size during thermalisation: 4.75008%
